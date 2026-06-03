@@ -1,0 +1,38 @@
+Script started on Sat 01 Nov 2025 09:03:36 PM HST
+]0;ep22@uhx02:~/Project1[?1034huhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[Kuhx02:/home/e/ep22/Project1% make[K[K[K[Ktouch *,c[K[K.c
+]0;ep22@uhx02:~/Project1uhx02:/home/e/ep22/Project1% make
+gcc -c -pedantic-errors -Wall -ansi user_interface.c
+gcc -c -pedantic-errors -Wall -ansi database.c
+[01m[Kdatabase.c:[m[K In function ‘[01m[KprintAllRecords[m[K’:
+[01m[Kdatabase.c:64:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprevious[m[K’ set but not used [-Wunused-but-set-variable]
+     struct record *previous = NULL;
+[01;32m[K                    ^[m[K
+gcc -o project user_interface.o database.o
+]0;ep22@uhx02:~/Project1uhx02:/home/e/ep22/Project1% make
+make: `project' is up to date.
+]0;ep22@uhx02:~/Project1uhx02:/home/e/ep22/Project1% touch *.o
+]0;ep22@uhx02:~/Project1uhx02:/home/e/ep22/Project1% make
+gcc -o project user_interface.o database.o
+]0;ep22@uhx02:~/Project1uhx02:/home/e/ep22/Project1% ./proh[Kject
+Welcome.
+
+Please select an option.
+
+add: add a new record to the database.
+printall: print all records in the database.
+find: find record(s) with a specific account number.
+delete: given an account number, delete existing record(s) from the database.
+quit: quit the program.
+------------------------------
+
+
+----- Enter Menu Option: -----
+
+q
+
+Exiting Menu...
+
+]0;ep22@uhx02:~/Project1uhx02:/home/e/ep22/Project1% exit
+exit
+
+Script done on Sat 01 Nov 2025 09:04:48 PM HST
