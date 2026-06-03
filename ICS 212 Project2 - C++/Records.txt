@@ -1,0 +1,42 @@
+1234
+John Egbert
+Washington, Earth
+
+
+
+
+
+
+
+----------
+2345
+Rose Lalonde
+New York, Earth
+
+
+
+
+
+----------
+3456
+Dave Strider
+Texas, Earth
+
+
+
+
+
+
+
+----------
+4567
+Jade Harley
+???, Earth
+
+
+
+
+
+
+
+----------
